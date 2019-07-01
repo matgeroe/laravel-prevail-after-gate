@@ -1,2 +1,9 @@
-.idea/
-vendor
+.env
+/.idea
+/vendor
+composer.lock
+composer.phar
+clover.json
+clover.xml
+.DS_Store
+.phpunit.result.cache
