@@ -1,0 +1,17 @@
+{
+    "name": "matthiaswilbrink/laravel-prevail-after-gate",
+    "description": "Laravel package to let the after Gate prevail",
+    "require": {
+        "Illuminate/Auth": "5.8.*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MatthiasWilbrink\\AfterGate\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
