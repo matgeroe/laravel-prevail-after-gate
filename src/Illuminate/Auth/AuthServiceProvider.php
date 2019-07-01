@@ -2,11 +2,11 @@
 
 namespace MatthiasWilbrink\AfterGate\Illuminate\Auth;
 
+use Illuminate\Support\ServiceProvider;
 use MatthiasWilbrink\AfterGate\Illuminate\Auth\Access\Gate;
-use Illuminate\Auth\AuthServiceProvider as IlluminateServiceProvider;
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 
-class AuthServiceProvider extends IlluminateServiceProvider
+class AuthServiceProvider extends ServiceProvider
 {
     /**
      * Register the service provider.
@@ -15,7 +15,6 @@ class AuthServiceProvider extends IlluminateServiceProvider
      */
     public function register()
     {
-        parent::register();
         $this->registerAccessGate();
     }
 

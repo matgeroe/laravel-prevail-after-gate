@@ -24,6 +24,7 @@ class Gate extends IlluminateGate
 
             $afterResult = $after($user, $ability, $result, $arguments);
 
+            // Let the Gate::after prevail over the result
             $result = $afterResult ?? $result;
         }
 
