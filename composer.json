@@ -2,7 +2,7 @@
     "name": "matthiaswilbrink/laravel-prevail-after-gate",
     "description": "Laravel package to let the after Gate prevail",
     "require": {
-        "Illuminate/Auth": "5.8.*"
+        "illuminate/auth": "5.8.*"
     },
     "minimum-stability": "dev",
     "autoload": {
